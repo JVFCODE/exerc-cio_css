@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fundo da página */
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+}
+
+.entretenimento {
+    background-color: #6c0908; /* Cor de fundo para Entretenimento */
+    color: white; /* Cor do texto */
+}
+
+.tecnologia {
+    background-color: #add8e6; /* Cor de fundo para Tecnologia */
+    color: #333; /* Cor do texto */
+}
+
+h2 {
+    color: #333;
+}
+
+article {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
+    border-radius: 3px; /* Cantos arredondados para artigos */
+}
+
+article h3 {
+    color: #333; /* Cor dos títulos dos artigos */
+    margin: 5px 0;
+}
