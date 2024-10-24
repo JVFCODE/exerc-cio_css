@@ -1,37 +1,125 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4; /* Fundo da página */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef; /* Cor de fundo suave */
 }
 
-section {
+header {
+    background-color: #004085; /* Azul escuro */
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.esportes {
     padding: 20px;
-    margin: 20px 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
-}
-
-.entretenimento {
-    background-color: #6c0908; /* Cor de fundo para Entretenimento */
-    color: white; /* Cor do texto */
-}
-
-.tecnologia {
-    background-color: #add8e6; /* Cor de fundo para Tecnologia */
-    color: #333; /* Cor do texto */
+    margin: 40px 20px 20px; /* Margem superior aumentada */
+    background-color: #cce7ff; /* Azul claro */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #333;
+    color: #003366; /* Azul escuro */
 }
 
-article {
-    margin: 10px 0;
+.topicos {
+    margin-bottom: 20px;
+}
+
+.topicos span {
+    background-color: #0056b3; /* Azul mais forte */
+    color: white;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
-    border-radius: 3px; /* Cantos arredondados para artigos */
+    margin-right: 10px;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
-article h3 {
-    color: #333; /* Cor dos títulos dos artigos */
-    margin: 5px 0;
+.materias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.materia {
+    background-color: #ffffff; /* Fundo branco */
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1 1 24%; /* Tamanho flexível */
+    max-width: 24%; /* Limita o tamanho máximo */
+    transition: transform 0.2s; /* Animação ao passar o mouse */
+}
+
+.materia:hover {
+    transform: translateY(-5px); /* Efeito de hover */
+}
+
+.materia img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%; /* Imagem responsiva */
+}
+
+.materia h3 {
+    font-size: 1.5em;
+    color: #0056b3; /* Azul mais forte */
+}
+
+.data {
+    font-size: 0.9em;
+    color: #888;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.separator {
+    height: 5px;
+    background-color: #007bff; /* Azul forte para separação */
+    margin: 20px 0;
+}
+
+.economia {
+    padding: 20px;
+    margin: 20px; /* Margem inferior ajustada */
+    background-color: #f8f9fa; /* Fundo claro para Economia */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #004085; /* Azul escuro */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
